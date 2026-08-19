@@ -1,0 +1,10 @@
+plugins { id("com.android.application"); id("org.jetbrains.kotlin.android") }
+android {
+    namespace = "com.example.sonaassistant"
+    compileSdk = 34
+    defaultConfig { applicationId = "com.example.sonaassistant"; minSdk = 24; targetSdk = 34 }
+}
+dependencies {
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.activity:activity-compose:1.8.2")
+}
